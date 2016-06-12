@@ -1,14 +1,30 @@
 {
-    "name": "gfswatcher-cli",
-    "version": "0.0.1",
-    "keywords": ["gfswatcher"],
-    "author": "Gonzalo Grado Vivero <gonzalophp@gmail.com>",
-    "contributors": [],
-    "dependencies": {},
-    "scripts": {
-        "start": "node main.js"
-    },
-    "bin": {
-        "gfswatcher": "./gfswatcher.js"
-    }
+  "name": "gfswatcher-cli",
+  "version": "0.0.1",
+  "keywords": [
+    "gfswatcher",
+    "docker",
+    "watcher",
+    "fs"
+  ],
+  "main": "gfswatcher-cli.js",
+  "author": "Gonzalo Grado Vivero <gonzalophp@gmail.com>",
+  "contributors": [],
+  "dependencies": {
+    "gfswatcher": "0.0.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gonzalophp/gfswatcher-cli"
+  },
+  "scripts": {
+    "start": "node gfswatcher-cli.js"
+  },
+  "bin": {
+    "gfswatcher-cli": "./gfswatcher-cli.js"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gonzalophp/gfswatcher-cli"
+  }
 }
