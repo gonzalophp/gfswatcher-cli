@@ -1,5 +1,5 @@
 # gfswatcher-cli
-command line for [gfswatcher module](https://github.com/gonzalophp/gfswatcher)
+command line for <a href="https://github.com/gonzalophp/gfswatcher">gfswatcher module</a>
 
 > The filesystem event watcher
 
