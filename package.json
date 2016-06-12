@@ -1,6 +1,6 @@
 {
   "name": "gfswatcher-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": [
     "gfswatcher",
     "docker",
@@ -11,7 +11,7 @@
   "author": "Gonzalo Grado Vivero <gonzalophp@gmail.com>",
   "contributors": [],
   "dependencies": {
-    "gfswatcher": "0.0.12"
+    "gfswatcher": "^0.0.13"
   },
   "repository": {
     "type": "git",
