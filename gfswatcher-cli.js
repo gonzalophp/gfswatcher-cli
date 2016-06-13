@@ -2,5 +2,9 @@
 
 'use strict';
 
-var gfswatcher = require('gfswatcher').gfswatcher;
-gfswatcher.init();
+try{
+    var gfswatcher = require('gfswatcher');
+    gfswatcher.watch();
+} catch (e) {
+    process.stdout.write(e.message+"\n");
+}
